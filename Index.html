@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Firo Website</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+  <h1>Firo Website</h1>
+  <p>All about firo</p>
+</div>
+<style type="text/css">
+    /*CSS MENU*/
+    #menu{background:#F08080;color:#eee;height:px;border-bottom:4px solid #eeeded}
+    #menu ul,#menu li{margin:0 0;padding:0 0;list-style:none;z-index:9999;}
+    #menu ul{height:40px}
+    #menu li{float:left;display:inline;position:relative;font:bold 12px Arial;text-shadow: 0 -1px 0 #000;border-right: 1px solid #444;border-left: 1px solid #111;text-transform:uppercase}
+    #menu li:first-child{border-left: none}
+    #menu a{display:block;line-height:35px;padding:0 14px;text-decoration:none;color:#eee;}
+    #menu li:hover > a,#menu li a:hover{background:#111}
+    #menu input{display:none;margin:0 0;padding:0 0;width:80px;height:35px;opacity:0;cursor:pointer}
+    #menu label{font:bold 30px Arial;display:none;width:35px;height:36px;line-height:36px;text-align:center}
+    #menu label span{font-size:12px;position:absolute;left:35px}
+    #menu ul.menus{height:auto;overflow:hidden;width:180px;background:#111;position:absolute;z-index:99;display:none;border:0;}
+    #menu ul.menus li{display:block;width:100%;font:12px Arial;text-transform:none;}
+    #menu li:hover ul.menus{display:block}
+    #menu a.home {background: #c00;}
+    #menu a.sub{padding:0 27px 0 14px}
+    #menu a.sub::after{content:"";width:0;height:0;border-width:6px 5px;border-style:solid;border-color:#eee transparent transparent transparent;position:absolute;top:15px;right:9px}
+    #menu ul.menus a:hover{background:#333;}
+    </style>
+    <!-- Mulai Area Menu -->
+    <nav id="menu">
+    <input type="checkbox" />
+    <label>≡Navigation</label>
+    <ul>
+    <li><a class="Index.html" href="Index.html">Home</a></li>
+    <li><a href="about me.html">About Me</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    
+    </nav>
+    <!-- Area Menu Selesai-->
+  </div>
+
+        <!-- Menyisipkan kode js eksternal -->
+        <script src="kode-program.js"></script>
+    <hr />
+
+    <header style="text-align: center;">
+        <img src="image/foto-profile.jpg.JPG" width="200" height="200" style="border-radius: 50%;"/>
+        <h1>Lailatul Magfiroh</h1>
+        <p>(Web Developer)</p>
+    </header>
+
+    <hr />
+
+    <article style="text-align: center;">
+        <h2>Overview</h2>
+        <p>
+            Hi, saya adalah mahasiswa jurusan D3 Teknologi Multimedia Broadcasting<br>
+            Saat ini sedang belajar di Politeknik Elektronika Negeri Surabaya
+        </p>
+    </article>
+
+    <div style="max-width: 600px; margin: 3em auto">
+
+    </div>
+
+    <hr>
+    <div class="footer">
+        <h3><center> &#169; 2020,  Lailatul Magfiroh</center></h2>
+      </div>
+</body>
+</html>
